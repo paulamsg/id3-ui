@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-details.css">
+</head>
+<body>
+    <header id="header-detail">
+        <a href="#btn-back" data-state="focus"><i class="fa-solid fa-arrow-left"></i></a>
+        <p>Detalle</p>
+        <a href="#heart" data-state="focus"><i class="fa-solid fa-heart"></i></a>
+    </header>
+    <main>
+        <img id="coffee" src="./images/esspresso.png" alt="Café intenso">
+        <section class="section-details">
+                <h1>Espresso Intenso</h1>
+                <div class="rating">
+                    <i class="fa-solid fa-star" data-value="1"></i>
+                    <i class="fa-solid fa-star" data-value="2"></i>
+                    <i class="fa-solid fa-star" data-value="3"></i>
+                    <i class="fa-solid fa-star" data-value="4"></i>
+                    <i class="fa-solid fa-star" data-value="5"></i>
+                </div>
+                <p class ="price-details">€3.60</p>
+                <p class ="description-details">Nuestro espresso signature combina granos 100% arábica de origen único de las montañas de Colombia. Tostado artesanalmente para resaltar sus notas de chocolate negro, caramelo y un toque cítrico que perdura en el paladar.</p>
+            <div class="ingredients-details">
+                <hr class="separator">
+                <p>Ingredientes y origen</p>
+                <form>
+                    <label>
+                        <input type="radio" name="arabica" value="small" checked >
+                        Café arábica de colombia
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="tostado" value="medium" checked>
+                        Tostado medio oscuro
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="proceso" value="large" checked>
+                        Proceso lavado
+                    </label>
+                    <label>
+                        <input type="radio" name="certificacion" value="large" checked>
+                        Certificación oránica
+                    </label>
+                </form>
+                <div class="quantity-selector">
+                    <div class="qty-btn minus">−</div>
+                    <p class="qty-number">1</p>
+                    <div class="qty-btn plus">+</div>
+                </div>
+                <button> Añadir al carrito - €3.60 </button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Aurora</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-details.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="./images/user-picture.png" alt="User picture">
+        <nav id="navigation">
+            <img id="logo" src="./images/Icon.png" alt="Menu">
+        </nav>
+    </header>
+    <main>
+        <img id="coffee" src="./images/Cafe_Aurora_Interior.jpg" alt="Cafe Aurora Logo">
+        <div class="main-text">
+            <h1>Café Aurora</h1>
+            <p>Experiencia artesanal en cada taza</p>
+        </div>
+        <div class="art-tag" data-category="nuevo">Nuevo</div>
+    </main>
+    <section class="category">
+        <p>Categorías</p>
+        <div class="categories">
+            <div class="tag-category" data-state="focus">Café</div> 
+            <div class="tag-category" data-state="normal">Postres</div>
+            <div class="tag-category" data-state="normal">Bebidas</div>
+        </div> 
+    </section>
+    <section class="products">
+        <p>Nuestros Productos</p>
+        <div class="display">
+            <article class="art-product">
+                <div class="container-img">
+                    <img src="./images/esspresso.png" alt="Café espresso">
+                </div>
+                <div class="description">
+                    <p class="p-title">Esspresso Intenso</p>
+                    <p class="p-desc">Café 100% arábica de origen único</p>
+                    <p class="p-desc">€2.10</p>
+                </div>
+                <div class="art-tag" data-category="popular">Popular</div>
+            </article>
+            <article class="art-product">
+                <div class="container-img">
+                    <img src="./images/tarta-chocolate.png" alt="tarta de chocolate">
+                </div>
+                <div class="description">
+                    <p class="p-title">Tarta de chocolate</p>
+                    <p class="p-desc">Bizcocho húmedo con ganache</p>
+                    <p class="p-desc">€3.60</p>
+                </div>
+            </article>
+            <article class="art-product">
+                <div class="container-img">
+                    <img src="./images/cappuccino.jpg" alt="tarta de chocolate">
+                </div>
+                <div class="description">
+                    <p class="p-title">Cappuccino Clásico</p>
+                    <p class="p-desc">Espresso con espuma de leche</p>
+                    <p class="p-desc">€4.20</p>
+                </div>
+                <div class="art-tag" data-category="vegan">Vegano</div>
+            </article>
+            <article class="art-product">
+                <div class="container-img">
+                    <img src="./images/croissant.jpeg" alt="tarta de chocolate">
+                </div>
+                <div class="description">
+                    <p class="p-title">Croissant Artesanal</p>
+                    <p class="p-desc">Hojaldre con mantequilla</p>
+                    <p class="p-desc">€3.00</p>
+                </div>
+                <div class="art-tag" data-category="popular">Popular</div>
+            </article>
+        </div>
+    </section>
+    <nav class="nav-bottom">
+        <a href="#home" data-state="focus"><i class="fa-solid fa-house"></i></a>
+        <a href="#menu"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="#favorites"><i class="fa-solid fa-heart"></i></a>
+        <a href="#profile"><i class="fa-solid fa-user"></i></a>
+    </nav>
+</body>
+</html>
