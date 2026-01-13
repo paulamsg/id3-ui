@@ -96,7 +96,7 @@ section.section-details{
         margin: 20px 0;
     }
 
-    .qty-btn {
+    .quantity-selector__button {
         width: 40px;
         height: 40px;
         border-radius: 50%;
@@ -111,29 +111,29 @@ section.section-details{
         font-weight: bold;
     }
 
-    .qty-btn.minus {
+    .quantity-selector--minus {
         background-color: white;
         color: #2D5A27;
         border: 2px solid #2D5A27;
 
     }
 
-    .qty-btn.plus {
+    .quantity-selector--plus {
         background-color: #2D5A27;
         color: white;
         border: none;
         border-radius: 999px;
     }
 
-    .qty-btn:hover {
+    .quantity-selector__button:hover {
         background-color: #1f3f1a;
     }
 
-    .qty-btn.minus:hover {
+    .quantity-selector--minus:hover {
         background-color: #f0f0f0;
     }
 
-    .qty-number {
+    .quantity-selector__number {
         font-family: 'Playfair Display', sans-serif;
         font-size: 16px;
         min-width: 30px;
