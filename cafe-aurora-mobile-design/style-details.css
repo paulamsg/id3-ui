@@ -51,7 +51,7 @@ section.section-details{
         font-weight: 500;
     }
 
-    .ingredients-details form {
+    .ingredients-details .radio-inputs {
         display: flex;
         flex-direction: column;
         gap: 10px;
