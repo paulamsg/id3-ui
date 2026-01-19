@@ -31,7 +31,55 @@ header{
     }
     #navigation{
         height: 40px;
+        cursor: pointer;
     }
+
+    #navigation label {
+        font-size: 28px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    .toggle {
+        display: none; /* Ocultamos el checkbox */
+    }
+    /* Estilos del menú (oculto) */
+    .menu {
+    display: none;
+    position: fixed;
+    top: 64px; 
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    padding: 20px;
+    }
+
+    /* Mostramos el menú cuando el checkbox está marcado */
+    .toggle:checked ~ .menu {
+    display: block;
+    }
+
+    /* Estilos de la lista */
+    .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+    .menu li {
+    padding: 18px 0;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    font-size: 18px;
+    }
+    .menu li:hover {
+    color: #2D5A27;
+    font-weight: 500;
+    }
+    
 
 main{
     padding-top: var(--header-height);
