@@ -44,7 +44,7 @@ header{
     .toggle {
         display: none; /* Ocultamos el checkbox */
     }
-    /* Estilos del menú (oculto) */
+    
     .menu {
     display: none;
     position: fixed;
@@ -62,7 +62,7 @@ header{
     display: block;
     }
 
-    /* Estilos de la lista */
+    
     .menu ul {
     list-style: none;
     padding: 0;
