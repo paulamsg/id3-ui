@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-contact.css">
+</head>
+<body>
+    <header id="header-detail">
+        <a href="#btn-back" data-state="focus"><i class="fa-solid fa-arrow-left"></i></a>
+        <p>Contacto</p>
+    </header>
+    <main>
+        <h1>¿Tienes alguna pregunta?</h1>
+        <p>Nos encantaría escucharte. Rellena el formulario y te responderemos pronto.</p>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" name="user_mail" />
+                </li>
+                <li>
+                    <label for="tlf">Teléfono</label>
+                    <input type="number" id="tlf" name="user_tel" />
+                </li>
+                <li>
+                    <label for="msg">Mensaje</label>
+                    <textarea id="text" name="user_message"></textarea>
+                </li>
+                <li>
+                    <label for="terms" style="flex-direction: row; align-items: center; gap: 8px; display: flex;">
+                        <input type="checkbox" id="terms" name="user_terms">
+                        Acepto términos y condiciones
+                    </label>
+                </li>
+            </ul>
+        </form>
+        <div class="steps">
+            <p>¿Qué sucede después?</p>
+            <div class="steps-item">
+                <div class="radio-circle">1</div>
+                <span>Revisamos tu mensaje en menos de 24 horas</span>
+            </div>
+            <div class="steps-item">
+                <div class="radio-circle">2</div>
+                <span>Un miembro del equipo se pondrá en contacto contigo</span>
+            </div>
+            <div class="steps-item">
+                <div class="radio-circle">3</div>
+                <span>Resolveremos tus dudas o procesaremos tu solicitud</span>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
