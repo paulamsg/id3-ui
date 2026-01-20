@@ -58,7 +58,7 @@ header{
     }
 
     /* Mostramos el menú cuando el checkbox está marcado */
-    .toggle:checked ~ .menu {
+    .toggle:checked + .menu {
     display: block;
     }
 
