@@ -39,19 +39,19 @@
             padding: 0 0 var(--padding-18);
         }
 
-        header {
+        .page-header {
             background-color: var(--background-color);
             color:var(--text-color);
             border: var(--border-size-5) solid var(--border-color);
         }
 
-        header ul {
+        .page-header__list {
             list-style: none;
             margin: 0;
             padding: 0;
         }
 
-        header a {
+        .page-header__link {
             color:var(--text-color);
             text-decoration: none;
             display: block;
@@ -59,14 +59,14 @@
             border-top: 1px solid var(--border-top-color);
         }
 
-        header .title {
+        .page-header__title {
             font-size: var(--font-size-title);
             font-style: italic;
             font-weight: bold;
             padding: var(--padding-18);
         }
 
-        main {
+        .page-main {
             padding: 0 var(--padding-18);
         }
 
@@ -76,19 +76,19 @@
             padding: 0;
         }
 
-        .cards li {
+        .cards__item {
             border: var(--border-size-5) solid var(--border-color);
             margin-bottom: var(--margin-18);
         }
 
-        .cards h2 {
+        .cards__title {
             background-color: var(--background-color);
             color:var(--text-color);
             margin: 0;
             padding:var(--padding-9) var(--padding-18);
         }
 
-        .cards .inner {
+        .cards__inner {
             padding: var(--padding-9) var(--padding-18);
         }
 
@@ -99,6 +99,10 @@
             color: var(--text-color);
         }
 
+        .sidebar__text {
+            /* Puedes agregar estilos específicos para el texto del sidebar si lo deseas */
+        }
+
         @media (width >1024px){
             .cards {
                 display: flex;
@@ -106,24 +110,23 @@
                 flex-wrap: wrap;
             }
 
-            .cards li{
+            .cards__item{
                 flex: 0 0 calc(33% - var(--gap-size));
-                
             }
-            header{
+            .page-header{
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
             }
-            header ul{
+            .page-header__list{
                 display: flex;
                 padding: var(--padding-18);
             }
-            header a {
+            .page-header__link {
                 border: none;
             }
 
-            main{
+            .page-main{
                 display: flex;
                 padding: var(--padding-18);
             }
