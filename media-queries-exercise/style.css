@@ -99,10 +99,6 @@
             color: var(--text-color);
         }
 
-        .sidebar__text {
-            /* Puedes agregar estilos específicos para el texto del sidebar si lo deseas */
-        }
-
         @media (width >1024px){
             .cards {
                 display: flex;
