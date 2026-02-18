@@ -8,39 +8,40 @@
   </head>
 
   <body>
-    <header class="page-header">
-      <div class="page-header__title">My Website</div>
-      <nav class="page-header__nav">
-        <ul class="page-header__list">
-          <li class="page-header__item">
-            <a class="page-header__link" href="">Link 1</a>
+    <div class="topbar">
+      <div class="topbar__title">My Website</div>
+      <nav class="topbar__nav">
+        <ul class="topbar__list">
+          <li class="topbar__item">
+            <a class="topbar__link" href="">Link 1</a>
           </li>
-          <li class="page-header__item">
-            <a class="page-header__link" href="">Link 2</a>
+          <li class="topbar__item">
+            <a class="topbar__link" href="">Link 2</a>
           </li>
-          <li class="page-header__item">
-            <a class="page-header__link" href="">Link 3</a>
+          <li class="topbar__item">
+            <a class="topbar__link" href="">Link 3</a>
           </li>
         </ul>
       </nav>
-    </header>
+    </div>
 
-    <main class="page-main">
-      <article class="page-main__article">
-        <h1 class="page-main__heading">This is the main heading</h1>
-        <p class="page-main__text">
+    <header class="header">
+        <h1 class="header__heading">This is the main heading</h1>
+        <p class="header__text">
           Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
           onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
         </p>
-
-        <p class="page-main__text">
+        <p class="header__text">
           Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot
           courgette tatsoi pea sprouts fava bean collard greens dandelion okra
           wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
         </p>
+    </header>
 
-        <ul class="cards">
-          <li class="cards__item">
+    <main class="main"></main>
+      <section class="section__cards">
+        <div class="cards">
+          <div class="cards__item">
             <h2 class="cards__title">Card One</h2>
             <div class="cards__inner">
               <p class="cards__text">
@@ -48,8 +49,8 @@
                 lettuce kohlrabi amaranth water spinach avocado.
               </p>
             </div>
-          </li>
-          <li class="cards__item">
+          </div>
+          <div class="cards__item">
             <h2 class="cards__title">Card Two</h2>
             <div class="cards__inner">
               <p class="cards__text">
@@ -57,8 +58,8 @@
                 potato scallion desert raisin horseradish spinach carrot soko.
               </p>
             </div>
-          </li>
-          <li class="cards__item">
+          </div>
+          <div class="cards__item">
             <h2 class="cards__title">Card Three</h2>
             <div class="cards__inner">
               <p class="cards__text">
@@ -66,8 +67,8 @@
                 bean swiss chard seakale pumpkin onion chickpea gram corn pea.
               </p>
             </div>
-          </li>
-          <li class="cards__item">
+          </div>
+          <div class="cards__item">
             <h2 class="cards__title">Card Four</h2>
             <div class="cards__inner">
               <p class="cards__text">
@@ -75,8 +76,8 @@
                 bean swiss chard seakale pumpkin onion chickpea gram corn pea.
               </p>
             </div>
-          </li>
-          <li class="cards__item">
+          </div>
+          <div class="cards__item">
             <h2 class="cards__title">Card Five</h2>
             <div class="cards__inner">
               <p class="cards__text">
@@ -85,15 +86,17 @@
                 leek lentil turnip greens parsnip.
               </p>
             </div>
-          </li>
-        </ul>
-      </article>
-      <aside class="sidebar">
-        <p class="sidebar__text">
-          Have you discovered all of the other excellent content on this
-          website?
-        </p>
-      </aside>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <aside class="sidebar">
+      <p class="sidebar__text">
+        Have you discovered all of the other excellent content on this
+        website?
+        </p>
+    </aside>
+    
   </body>
 </html>
